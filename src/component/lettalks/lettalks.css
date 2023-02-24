@@ -1,0 +1,54 @@
+.letpart{
+    background: #1C1E53;
+    margin-top: 100px;
+}
+.letpart .box{
+
+    padding: 100px 100px 0 100px;
+}
+.letpart .left{
+    width: 50%;
+}
+.letpart .left p{
+    font-family: "poppins", sans-serif;
+    margin-top: 22px;
+    color: #fff;
+    width: 400px;
+}
+.letpart .left .box-2{
+    display: flex;
+    background: #FCD980;
+    width: 70%;
+    padding: 18px;
+    margin-top: 104px;
+}
+.letpart .left .box-2 p{
+    font-family: "poppins", sans-serif;
+    color: #1B1C2B;
+}
+.letpart .left .box-2 .box-left{
+    width: 50%;
+}
+.letpart .right{
+    width: 50%;
+
+}
+.letpart .right h2{
+    font-family: "poppins", sans-serif;
+   font-size: 48px;
+   font-weight: 600px;
+    color: #fff;
+}
+.letpart .right p{
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    width: 400px;
+}
+.letpart .right .social .fa-brands{
+    width: 70px;
+    height: 70px;
+}
+.letpart .right .social{
+    padding: 20px;
+    color: #fff;
+}

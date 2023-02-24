@@ -1,0 +1,97 @@
+.project {
+    margin-top: 128px;
+}
+.project .box{
+    justify-content: space-between;
+}
+.project img{
+    width: 100%;
+    display: block;
+}
+.project .title a{
+    color: #282938;
+}
+.project .leftimg{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.project .leftimg:hover .overlay{
+    left: 0;
+    transition: 0.4s;
+}
+.project .leftimg .overlay{
+    width: 50%;
+    height:  100%;
+    background: linear-gradient(rgb(32, 34, 92,0.42),#1c1e53);
+    position: absolute;
+    top: 0;
+    left: -50%;
+    display: flex;
+    align-items: flex-end;
+}
+.project .leftimg .overlay .text{
+    height: 50%;
+    width: 100%;
+    padding: 48px;
+}
+.project .leftimg .overlay .text h3{
+    font-family: "poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #fff;
+}
+.project .leftimg .overlay .text p{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #BBBBCB;
+}
+.project .leftimg .overlay .text a {
+    margin-top: 40px;
+    color: #FCD980;
+}
+.project .rightimg{
+    width: 38%;
+}
+.project .rightimg .smalloverlay .text{
+    width: 405px;
+    padding: 48px;
+    
+}
+.project .imgbox{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 13px;
+    height: 260px;
+}
+.project .rightimg .smalloverlay{
+    width: 100%;
+    height:  100%;
+    background: linear-gradient(rgb(32, 34, 92,0.42),#1c1e53);
+    position: absolute;
+    top: -100%;
+    left: 0%;
+    display: flex;
+    align-items: flex-end;
+}
+.project .rightimg .imgbox:hover .smalloverlay{
+    transition: .4s;
+    top: 0;
+}
+.project .rightimg .smalloverlay .text h3{
+    font-family: "poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #fff;
+}
+.project .rightimg .smalloverlay .text a {
+    margin-top: 40px;
+    color: #FCD980;
+}
+ 
+.project .mt{
+    margin-top: 64px;
+}

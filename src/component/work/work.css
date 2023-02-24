@@ -1,0 +1,48 @@
+.work{
+    background-color: #F4F6FC;
+    padding: 126px 0;
+}
+.work .left{
+    width: 40%;
+}
+.work .left h2{
+    font-family: "poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600px;
+}
+.work .left p{
+    width: 360px;
+    line-height: 18px;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 16px;
+}
+.work .left a{
+    display: inline-block;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 41px;
+
+}
+.work .left a i{
+    margin: 16px;
+}
+.work .right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .work .right .partition-2{
+    width: 50%; 
+    padding-bottom: 30px;
+}
+.work .right .partition-3{
+    width: 50%;
+}
+.work .right .partition-4{
+    width: 50%;
+} */

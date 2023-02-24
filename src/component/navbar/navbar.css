@@ -1,0 +1,106 @@
+nav{
+   
+    background: #1C1E53;
+    padding: 32px 0px;
+}
+.box{
+    display: flex;
+       
+;
+}
+nav .logo{
+   width: 20%;
+    height: 100%;
+    align-self: center;
+   
+}
+nav .navitem{
+    width: 80%;
+    height: 100%;
+   display: flex;
+   justify-content: end;
+   column-gap: 48px;
+}
+nav a{
+    display: inline-block;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #fdfdfd;
+    border: 1px solid #f4f6fc;
+    padding: 16px 48px;
+    border-radius: 41px;
+}
+nav a:hover{
+    color: #1C1E53;
+    background-color: #fff;
+}
+nav ul{
+    display: flex;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #BBBBCB;
+    column-gap: 32px;
+    justify-content: end;
+    align-items: center;
+}
+nav ul li {
+    transition: 0.4s;
+}
+nav ul li:hover {
+    color: #fff;
+}
+
+/* ==========================
+Banner start
+=================================*/
+.banner{
+    background-color: #1C1E53;
+}
+.banner .left{
+    width: 50%;
+    padding: 126px 0;
+}
+.banner .left h1{
+    font-family: "poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600px;
+    color: #fff;
+    line-height: 74px;
+}
+.banner .left p{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #fff;
+    width: 562px;
+    line-height: 28px;
+    margin: 24px 0;
+}
+.banner .left a{
+        display: inline-block;
+        font-family: "poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500px;
+        padding: 16px 48px;
+        border-radius: 41px;
+    
+}
+.banner .left .view{
+    background-color: #FCD980;
+    color: #1B1C2B;
+}
+.banner .left .price{
+    color: #fff;
+}
+.banner .left .price i{
+    margin: 16px;
+}
+.banner .right{
+    width: 50%;
+    padding-top: 126px;
+}
+.banner .right img{
+    width: 100%;
+}

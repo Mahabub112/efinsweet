@@ -1,0 +1,52 @@
+.forms{
+    margin-bottom: 128px;
+}
+.forms .box{
+    justify-content: space-between;
+}
+.project img{
+    width: 100%;
+    display: block;
+}
+.forms .leftimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.forms .leftimg:hover .overlay{
+    left: 0;
+    transition: 0.4s;
+}
+.forms .leftimg .overlay{
+    width: 100%;
+    height:  100%;
+    background: rgb(15, 15, 15,10%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.forms .leftimg .overlay .text{
+    height: 80%;
+    width: 100%;
+    padding: 48px;
+}
+.forms .leftimg .overlay .text h3{
+    font-family: "poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600px;
+    color: #fff;
+}
+.forms .leftimg .overlay .text p{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #ffffff;
+}
+.forms .leftimg .overlay .text a {
+    margin-top: 40px;
+    color: #FCD980;
+}

@@ -1,0 +1,18 @@
+.work .right .partition-1{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.work .right h2{
+    font-family: "poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500px;
+    padding-top: 16px;
+}
+.work .right p{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 16px;
+    width: 285px;
+    color: #282938;
+}

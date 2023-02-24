@@ -1,0 +1,80 @@
+.service{
+    background: #EEF4FA;
+}
+
+.service .box-item .left h6{
+    padding-top: 128px;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    text-align: center;
+}
+.service .box-item .left h3{
+   text-align: center;
+    font-family: "poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600px;
+    line-height: 64px;
+    width: 630px;
+    padding-left: 316px;
+    padding-bottom: 47px;
+}
+.service .box-item .right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service .box-item .right h2{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.service .box-item .right p{
+    line-height: 28px;
+}
+
+.forms .right {
+    padding: 95px;
+    background: #1C1E53;
+}
+.forms .right h3{
+    font-family: "poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500px;
+    color: #fff;
+}
+.forms .right p{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.forms .right input{
+    width: 95%;
+    background: #1C1E53;
+    border-radius: 8px;
+    height: 50px;
+    border: 1px solid rgb(143, 142, 142);
+    margin-bottom: 16px;
+}
+.forms .right input::placeholder{
+    padding-left: 20px;
+}
+.forms .right .btn{
+    width: 95%;
+    background: #FCD980;
+    height: 64px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 28px;
+}
+.forms .right a{
+    font-size: 18px;
+    font-weight: 500px;
+    color: #fff;
+    margin: 127px;
+}
